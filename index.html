@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر لوريت</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>✨ أهلاً وسهلاً بكم في متجر لوريت، حيث تُصنع التفاصيل بحب! ✨</h1>
+        </header>
+
+        <div class="form-container">
+            <div class="avatar">
+                <img src="my-melody.png" alt="صورة شخصية">
+            </div>
+            <h2>لوريت</h2>
+
+            <form>
+                <div class="input-group">
+                    <label for="image-upload">تحميل صورة:</label>
+                    <input type="file" id="image-upload">
+                </div>
+
+                <div class="input-group">
+                    <label for="name">الاسم:</label>
+                    <input type="text" id="name" placeholder="أدخل اسمك">
+                </div>
+
+                <div class="input-group">
+                    <label>هل لديك تفاصيل للطلب؟</label>
+                    <div class="options">
+                        <button type="button" id="yes-btn">نعم</button>
+                        <button type="button" id="no-btn">لا</button>
+                    </div>
+                </div>
+
+                <div class="input-group" id="details-box" style="display: none;">
+                    <label for="details">تفاصيل الطلب:</label>
+                    <textarea id="details" placeholder="أدخل تفاصيل الطلب"></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">إرسال الطلب</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
