@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
+
+body {
+    background: url('https://www.toptal.com/designers/subtlepatterns/uploads/gingham.png');
+    background-color: #f8c9d2;
+    text-align: center;
+    font-family: 'Amiri', serif;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+header h1 {
+    color: #d6708a;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.form-container {
+    background: #fffaf0;
+    padding: 20px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    border: 3px solid #d6708a;
+}
+
+.avatar img {
+    width: 100%;
+}
+
+h2 {
+    color: #d6708a;
+    margin-top: 10px;
+}
+
+.input-group {
+    margin: 15px 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #f4a8b8;
+    border-radius: 5px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    background: #d6708a;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #c35f7a;
+}
+
+.submit-btn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* زر نعم ولا */
+#yes-btn, #no-btn {
+    width: 70px;
+    background: #f4a8b8;
+}
+
+#yes-btn:hover, #no-btn:hover {
+    background: #e58ea1;
+}
+
+/* إخفاء وإظهار مربع التفاصيل */
+#details-box {
+    display: none;
+}
